@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+        h2 { color: navy; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+        * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+    }
+   
+   
+   </style>
+</head>
+<body>
+ 
+<h1 style="display: inline; background-color:maroon; color: burlywood;">
+    WELCOME TO OUR BSIT (2018-22) Session
+
+</h1>
+
+<ul >
+    <li style="display: block;"><a href="index.html">Home</a></li>
+    <li style="display: block;"><a href="Courses.html">Courses</a></li>
+    <li style="display: block;"><a href="contact.asp">Contact</a></li>
+    <li style="display: block;"><a href="about.html">About</a></li>
+  </ul>   
+  
+  
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="slider_2.png" style="width:100%">
+      <div class="text">Admission details</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="slider_02.jpg" style="width:100%">
+      <div class="text">College Building</div>
+    </div>
+    
+ 
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+   
+        <p style="background-color:rgb(247, 245, 243); color-scheme: whitesmoke;font-size: medium;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            The History of the Government College Sahiwal Starts back in 1942 when some Educationists established Government College Montgomery in a rented building on a circular road of the city. This building lacked the facilities like Laboratories, enough classrooms and playgrounds. In these circumstances Arts classes were started at Inter and degree levels. Science classes were started at B.Sc level in 1950. The college was affiliated with Punjab University, Lahore at that time but College has been affiliated with Baha-ud-Din Zakariya University Multan Since 1975. Government College Sahiwal became a postgraduate Centre with the beginning of M.Sc Physics in 1969. Later on postgraduate classes in the subjects of English, Economics (1998), Botany, Chemistry, Mathematics (1999), Statistics, Political Science (1999), and Urdu (2002) were also started. The architectural plan of the present Campus was approved before the emergence of Pakistan, but its construction was materialized with the enormous efforts of Professor Dr. Muhammad Jahangir Khan and Professor Abdul Aleem Farooqi in 1951. Professor F.M. Khan transformed the 82-acres of barren land into enchanting lawns, colourful gardens and lush green belts. The excellence in beauty and sophistications was enhanced on all level by the vision of Professor Main Asghar Ali. A magnificent masque and grand Library were the most precious gifts from Professor Malik Muhammad Anwar to the College Campus. The Centre of Excellence and mosque adjacent to the Administrative Block were the memorable addition due to the efforts of Professor Qamar-ul Zaman Khan. A well-equipped laboratory with 32 computers was established and run by a dedicated scholar, Professor Dr. Muhammad Yasin that paved the way towards the introduction of modern technologies in the college, in 2002. Professor Dr. Muhammad Yasin has also contributed towards the renovation of the mosque, outer boundary wall and new construction of a Girls Hostel, a Mathematics Laboratory, aPost-Graduate Library in the College. Professor Dr. Anwaar Ahmad also contributed with remarkable efforts to the development of the college. In 2011, a new computer lab established with 32 computers for intermediate classes. For BS programme another new and spacious computer lab is established and equipped with up-to- date 51 computers. An octagonal college added to college cafeteria that enhances the grandeur in overall look. The oval ground is developed for international level of club cricked level at the college campus. The new construction of the girls hostel is almost completed and will be functional very soon. All these contributions towards the development of the college created a healthy and conducive Educational environment. Establishing traditions of success and quenching the thirst of excellence are everlasting and permanent features of the staff and the students of the college. Government College Sahiwal has become a recognition tag of Sahiwal city and a well-known institution at national level because of its splendid building, capacious hostel, unique swimming pool and grand Library. College possesses sport facilities in all games and with the presence of a proper canteen, colourful rose garden, sunken garden, terrace garden and a vast oval ground for multiple sports purposes; college gives every opportunity to the students to prosper and flourish. The college possesses an asset of glowing traditions, exemplary series of success are the outstanding contributions towards the building of the Pakistani nation. The college has become an institution and it is, really, has gone to a very high in ranks among the educational institutions of the country. The name of the College has been changed to Govt. Post-Graduate College for Boys Sahiwal since 2009 by the competent Authority.
+        </p>
+   
+
+</body>
+</html>
